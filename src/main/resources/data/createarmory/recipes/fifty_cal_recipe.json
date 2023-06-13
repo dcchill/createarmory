@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:fifty_cal_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:fifty_cal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmory:fifty_cal_casing"
+        },
+        [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createarmory:unfinished_fifty_cal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:unfinished_fifty_cal_casing"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:fifty_cal"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:unfinished_fifty_cal_casing"
+  }
+}

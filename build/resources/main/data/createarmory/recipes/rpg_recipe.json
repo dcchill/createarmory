@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "0333300",
+    "4444244",
+    "0333300",
+    "   0003"
+  ],
+  "key": {
+    "0": {
+      "item": "create:brass_ingot"
+    },
+    "2": {
+      "item": "create:precision_mechanism"
+    },
+    "3": {
+      "item": "create:sturdy_sheet"
+    },
+    "4": {
+      "item": "createarmory:barrel_part"
+    }
+  },
+  "result": {
+    "item": "createarmory:empty_rpg",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Reload Key",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "ReloadKeyOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "ReloadKeyOnKeyReleased"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:fifty_cal_mold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:fifty_cal_mold_complete"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createarmory:fifty_cal_mold"
+        },
+        {
+          "amount": 100,
+          "fluid": "createarmory:molten_brass",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:fifty_cal_mold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:fifty_cal_mold"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:fifty_cal_mold"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:fifty_cal_mold"
+  }
+}

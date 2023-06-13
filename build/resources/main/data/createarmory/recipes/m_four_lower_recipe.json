@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "0000",
+    "0332",
+    "  11"
+  ],
+  "key": {
+    "0": {
+      "item": "create:brass_ingot"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "item": "create:precision_mechanism"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "createarmory:m_four_lower",
+    "count": 1
+  }
+}

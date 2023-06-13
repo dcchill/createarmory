@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45"
+  ],
+  "key": {
+    "0": {
+      "item": "createarmory:barrel_part"
+    },
+    "1": {
+      "item": "create:andesite_casing"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "create:hand_crank"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "createarmory:empty_pipe_pistol",
+    "count": 1
+  }
+}

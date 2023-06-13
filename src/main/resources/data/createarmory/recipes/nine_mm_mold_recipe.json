@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "createarmory:casing_mold"
+  },
+  "result": "createarmory:nine_mm_mold"
+}

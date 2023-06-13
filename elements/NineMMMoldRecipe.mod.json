@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:CasingMold"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:NineMMMold"
+    },
+    "name": "nine_mm_mold_recipe",
+    "namespace": "mod"
+  }
+}

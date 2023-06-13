@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "1011",
+    "00  ",
+    "1011"
+  ],
+  "key": {
+    "0": {
+      "item": "create:brass_ingot"
+    },
+    "1": {
+      "item": "createarmory:barrel_part"
+    }
+  },
+  "result": {
+    "item": "createarmory:minigun_barrel",
+    "count": 1
+  }
+}

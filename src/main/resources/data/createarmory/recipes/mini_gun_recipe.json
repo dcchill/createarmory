@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "createarmory:minigun_barrel"
+    },
+    "1": {
+      "item": "createarmory:minigun_base"
+    }
+  },
+  "result": {
+    "item": "createarmory:mini_gun",
+    "count": 1
+  }
+}

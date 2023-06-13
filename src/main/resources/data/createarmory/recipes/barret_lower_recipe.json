@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "00000",
+    "00230",
+    "  030"
+  ],
+  "key": {
+    "0": {
+      "item": "create:brass_ingot"
+    },
+    "2": {
+      "item": "create:precision_mechanism"
+    },
+    "3": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "createarmory:barret_lower",
+    "count": 1
+  }
+}

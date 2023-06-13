@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:five_five_six_mold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:five_five_six_mold_complete"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createarmory:five_five_six_mold"
+        },
+        {
+          "amount": 75,
+          "fluid": "createarmory:molten_brass",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:five_five_six_mold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:five_five_six_mold"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:five_five_six_mold"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:five_five_six_mold"
+  }
+}

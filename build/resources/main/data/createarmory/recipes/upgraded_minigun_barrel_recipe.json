@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "createarmory:minigun_barrel"
+    },
+    "2": {
+      "item": "create:brass_ingot"
+    },
+    "3": {
+      "item": "createarmory:barrel_part"
+    },
+    "4": {
+      "item": "createarmory:barrel_part"
+    },
+    "5": {
+      "item": "create:flywheel"
+    },
+    "7": {
+      "item": "createarmory:minigun_barrel"
+    },
+    "8": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "createarmory:upgraded_minigun_barrel",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mac10.fire": {
+    "category": "player",
+    "subtitle": "subtitles.mac10.fire",
+    "sounds": [
+      {
+        "name": "createarmory:mac10fire",
+        "stream": false
+      }
+    ]
+  },
+  "mac10.reload": {
+    "category": "neutral",
+    "subtitle": "subtitles.mac10.reload",
+    "sounds": [
+      {
+        "name": "createarmory:mac10reload",
+        "stream": false
+      }
+    ]
+  },
+  "mac10.fire2": {
+    "category": "player",
+    "subtitle": "subtitles.mac10.fire2",
+    "sounds": [
+      {
+        "name": "createarmory:mac10fire2",
+        "stream": false
+      }
+    ]
+  },
+  "m16.fire": {
+    "category": "player",
+    "subtitle": "subtitles.m16.fire",
+    "sounds": [
+      {
+        "name": "createarmory:m16fire",
+        "stream": false
+      }
+    ]
+  },
+  "m4.fire": {
+    "category": "player",
+    "subtitle": "subtitles.m4.fire",
+    "sounds": [
+      {
+        "name": "createarmory:m4fire",
+        "stream": false
+      }
+    ]
+  }
+}

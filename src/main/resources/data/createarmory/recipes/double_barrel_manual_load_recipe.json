@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createarmory:shotgun_shell"
+    },
+    {
+      "item": "createarmory:shotgun_shell"
+    },
+    {
+      "item": "createarmory:empty_double_barrel"
+    }
+  ],
+  "result": {
+    "item": "createarmory:double_barrel",
+    "count": 1
+  }
+}

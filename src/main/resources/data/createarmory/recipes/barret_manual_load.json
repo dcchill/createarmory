@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createarmory:empty_barret"
+    },
+    {
+      "item": "createarmory:fifty_cal"
+    }
+  ],
+  "result": {
+    "item": "createarmory:barret",
+    "count": 1
+  }
+}

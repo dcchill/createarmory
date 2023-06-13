@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:five_five_six_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:five_five_six"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmory:five_five_six_casing"
+        },
+        [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createarmory:unfinished_five_five_six_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:unfinished_five_five_six_casing"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:five_five_six"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:unfinished_five_five_six_casing"
+  }
+}

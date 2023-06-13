@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createarmory:five_five_six"
+    },
+    {
+      "item": "createarmory:empty_m_sixteen"
+    },
+    {
+      "item": "createarmory:five_five_six"
+    },
+    {
+      "item": "createarmory:five_five_six"
+    }
+  ],
+  "result": {
+    "item": "createarmory:m_sixteen",
+    "count": 1
+  }
+}

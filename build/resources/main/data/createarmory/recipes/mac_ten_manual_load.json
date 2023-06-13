@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createarmory:nine_mm"
+    },
+    {
+      "item": "createarmory:empty_mac_ten"
+    },
+    {
+      "item": "createarmory:nine_mm"
+    }
+  ],
+  "result": {
+    "item": "createarmory:mac_ten",
+    "count": 1
+  }
+}

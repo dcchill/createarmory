@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "axis",
+        "1": "axis_top"
+      },
+      "name": "default"
+    }
+  }
+}

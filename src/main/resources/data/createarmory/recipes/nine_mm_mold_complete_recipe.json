@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:nine_mm_mold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:nine_mm_mold_complete"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createarmory:nine_mm_mold"
+        },
+        {
+          "amount": 50,
+          "fluid": "createarmory:molten_brass",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:nine_mm_mold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:nine_mm_mold"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:nine_mm_mold"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:nine_mm_mold"
+  }
+}

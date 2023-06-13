@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createarmory:nine_mm"
+    },
+    {
+      "item": "createarmory:empty_pipe_pistol"
+    }
+  ],
+  "result": {
+    "item": "createarmory:pipe_pistol",
+    "count": 1
+  }
+}

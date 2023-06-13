@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "createarmory:five_five_six_mold_complete"
+    }
+  },
+  "result": {
+    "item": "createarmory:five_five_six_casing",
+    "count": 1
+  }
+}

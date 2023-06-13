@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FiveFiveSix"
+      },
+      {
+        "value": "CUSTOM:EmptyMSixteen"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FiveFiveSix"
+      },
+      {
+        "value": "CUSTOM:FiveFiveSix"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MSixteen"
+    },
+    "name": "m_sixteen_manual_load",
+    "namespace": "mod"
+  }
+}

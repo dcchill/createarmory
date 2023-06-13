@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmory:nine_mm_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:nine_mm"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmory:nine_mm_casing"
+        },
+        [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createarmory:unfinished_nine_mm"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:unfinished_nine_mm"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:nine_mm"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:unfinished_nine_mm"
+  }
+}

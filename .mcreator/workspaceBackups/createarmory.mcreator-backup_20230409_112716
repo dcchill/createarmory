@@ -1,0 +1,2847 @@
+{
+  "mod_elements": [
+    {
+      "name": "PipePistol",
+      "type": "animateditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/PipePistolItemModel.java",
+          "src/main/java/net/createarmory/item/PipePistolItem.java",
+          "src/main/resources/assets/createarmory/models/item/pipe_pistol.json",
+          "src/main/java/net/createarmory/item/renderer/PipePistolItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyPipePistol",
+      "type": "animateditem",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_pipe_pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/EmptyPipePistolItem.java",
+          "src/main/java/net/createarmory/item/model/EmptyPipePistolItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/EmptyPipePistolItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/empty_pipe_pistol.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyPipePistolRightclicked",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_pipe_pistol_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyPipePistolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PipePistolRightclicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_pistol_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/PipePistolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NineDebug",
+      "type": "rangeditem",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_debug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/nine_debug.json",
+          "src/main/java/net/createarmory/item/NineDebugItem.java",
+          "src/main/java/net/createarmory/entity/NineDebugEntity.java",
+          "src/main/java/net/createarmory/client/renderer/NineDebugRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NineMM",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/NineMMItem.java",
+          "src/main/resources/assets/createarmory/models/item/nine_mm.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMCasing",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/nine_mm_casing.json",
+          "src/main/java/net/createarmory/item/NineMMCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NineMMRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nine_mm_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/nine_mm_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfinishedNineMM",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_nine_mm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/UnfinishedNineMMItem.java",
+          "src/main/resources/assets/createarmory/models/item/unfinished_nine_mm.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateArmory",
+      "type": "tab",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_armory",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MiniGun",
+      "type": "animateditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/MiniGunItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/MiniGunItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/mini_gun.json",
+          "src/main/java/net/createarmory/item/MiniGunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MiniGunRightclicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_gun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MiniGunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FiftyDebug",
+      "type": "rangeditem",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiftyDebugItem.java",
+          "src/main/java/net/createarmory/client/renderer/FiftyDebugRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/fifty_debug.json",
+          "src/main/java/net/createarmory/entity/FiftyDebugEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Barret",
+      "type": "animateditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/BarretItem.java",
+          "src/main/resources/assets/createarmory/models/item/barret.json",
+          "src/main/java/net/createarmory/item/renderer/BarretItemRenderer.java",
+          "src/main/java/net/createarmory/item/model/BarretItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "BarretRightclicked",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/BarretRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyBarret",
+      "type": "animateditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_barret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/EmptyBarretItemModel.java",
+          "src/main/java/net/createarmory/item/EmptyBarretItem.java",
+          "src/main/java/net/createarmory/item/renderer/EmptyBarretItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/empty_barret.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyBarretRightclicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_barret_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyBarretRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FiftyCal",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiftyCalItem.java",
+          "src/main/resources/assets/createarmory/models/item/fifty_cal.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalCasing",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/fifty_cal_casing.json",
+          "src/main/java/net/createarmory/item/FiftyCalCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UnfinishedFiftyCalCasing",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_fifty_cal_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/unfinished_fifty_cal_casing.json",
+          "src/main/java/net/createarmory/item/UnfinishedFiftyCalCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fifty_cal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/fifty_cal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSix",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/five_five_six.json",
+          "src/main/java/net/createarmory/item/FiveFiveSixItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixCasing",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/five_five_six_casing.json",
+          "src/main/java/net/createarmory/item/FiveFiveSixCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UnfinishedFiveFiveSixCasing",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_five_five_six_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/unfinished_five_five_six_casing.json",
+          "src/main/java/net/createarmory/item/UnfinishedFiveFiveSixCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MFour",
+      "type": "animateditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/MFourItem.java",
+          "src/main/resources/assets/createarmory/models/item/m_four.json",
+          "src/main/java/net/createarmory/item/model/MFourItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/MFourItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MFourRightclicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MFourRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyMFour",
+      "type": "animateditem",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_m_four",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/renderer/EmptyMFourItemRenderer.java",
+          "src/main/java/net/createarmory/item/EmptyMFourItem.java",
+          "src/main/java/net/createarmory/item/model/EmptyMFourItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/empty_m_four.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyMFourRightclicked",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_m_four_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyMFourRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixDebug",
+      "type": "rangeditem",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiveFiveSixDebugItem.java",
+          "src/main/java/net/createarmory/entity/FiveFiveSixDebugEntity.java",
+          "src/main/java/net/createarmory/client/renderer/FiveFiveSixDebugRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/five_five_six_debug.json"
+        ]
+      }
+    },
+    {
+      "name": "MacTen",
+      "type": "animateditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mac_ten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/MacTenItem.java",
+          "src/main/java/net/createarmory/item/model/MacTenItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/MacTenItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/mac_ten.json"
+        ]
+      }
+    },
+    {
+      "name": "MacTenRightclicked",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mac_ten_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MacTenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyMacTen",
+      "type": "animateditem",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_mac_ten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/EmptyMacTenItem.java",
+          "src/main/resources/assets/createarmory/models/item/empty_mac_ten.json",
+          "src/main/java/net/createarmory/item/renderer/EmptyMacTenItemRenderer.java",
+          "src/main/java/net/createarmory/item/model/EmptyMacTenItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyMacTenRightclicked",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_mac_ten_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyMacTenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketDebug",
+      "type": "rangeditem",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/entity/RocketDebugEntity.java",
+          "src/main/resources/assets/createarmory/models/item/rocket_debug.json",
+          "src/main/java/net/createarmory/item/RocketDebugItem.java",
+          "src/main/java/net/createarmory/client/renderer/RocketDebugRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketDebugWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_debug_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/RocketDebugWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketDebugProjectileHit",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_debug_projectile_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/RocketDebugProjectileHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGRocket",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpg_rocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/rpg_rocket.json",
+          "src/main/java/net/createarmory/item/RPGRocketItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPG",
+      "type": "animateditem",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/rpg.json",
+          "src/main/java/net/createarmory/item/model/RPGItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/RPGItemRenderer.java",
+          "src/main/java/net/createarmory/item/RPGItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyRPG",
+      "type": "animateditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_rpg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/EmptyRPGItem.java",
+          "src/main/java/net/createarmory/item/model/EmptyRPGItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/empty_rpg.json",
+          "src/main/java/net/createarmory/item/renderer/EmptyRPGItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "RPGRightclicked",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpg_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/RPGRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyRPGRightclicked",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_rpg_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyRPGRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CasingMold",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casing_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/CasingMoldItem.java",
+          "src/main/resources/assets/createarmory/models/item/casing_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenBrass",
+      "type": "fluid",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_brass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/block/molten_brass.json",
+          "src/main/java/net/createarmory/fluid/types/MoltenBrassFluidType.java",
+          "src/main/resources/assets/createarmory/blockstates/molten_brass.json",
+          "src/main/java/net/createarmory/block/MoltenBrassBlock.java",
+          "src/main/resources/assets/createarmory/models/item/molten_brass_bucket.json",
+          "src/main/java/net/createarmory/fluid/MoltenBrassFluid.java",
+          "src/main/java/net/createarmory/item/MoltenBrassItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NineMMMold",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/NineMMMoldItem.java",
+          "src/main/resources/assets/createarmory/models/item/nine_mm_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalMold",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiftyCalMoldItem.java",
+          "src/main/resources/assets/createarmory/models/item/fifty_cal_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixMold",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiveFiveSixMoldItem.java",
+          "src/main/resources/assets/createarmory/models/item/five_five_six_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMMoldRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/nine_mm_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalMoldRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/fifty_cal_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixMoldRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/five_five_six_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalMoldComplete",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal_mold_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/FiftyCalMoldCompleteItem.java",
+          "src/main/resources/assets/createarmory/models/item/fifty_cal_mold_complete.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMMoldComplete",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_mold_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/NineMMMoldCompleteItem.java",
+          "src/main/resources/assets/createarmory/models/item/nine_mm_mold_complete.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixMoldComplete",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_mold_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/five_five_six_mold_complete.json",
+          "src/main/java/net/createarmory/item/FiveFiveSixMoldCompleteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StrengthenedBrassRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "strengthened_brass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/strengthened_brass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMMoldCompleteRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nine_mm_mold_complete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/nine_mm_mold_complete_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenBrassBucketToFluid",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "molten_brass_bucket_to_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/molten_brass_bucket_to_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalMoldCompleteRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fifty_cal_mold_complete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/fifty_cal_mold_complete_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixMoldCompleteRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "five_five_six_mold_complete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/five_five_six_mold_complete_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "five_five_six_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/five_five_six_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FiftyCalMoldBreak",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_cal_mold_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/fifty_cal_mold_break.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMMoldBreak",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_mold_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/nine_mm_mold_break.json"
+        ]
+      }
+    },
+    {
+      "name": "FiveFiveSixMoldBreak",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_five_six_mold_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/five_five_six_mold_break.json"
+        ]
+      }
+    },
+    {
+      "name": "CasingMoldRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casing_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/casing_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourUpper",
+      "type": "animateditem",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_upper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/MFourUpperItem.java",
+          "src/main/resources/assets/createarmory/models/item/m_four_upper.json",
+          "src/main/java/net/createarmory/item/model/MFourUpperItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/MFourUpperItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MFourLower",
+      "type": "animateditem",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_lower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/MFourLowerItem.java",
+          "src/main/java/net/createarmory/item/model/MFourLowerItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/m_four_lower.json",
+          "src/main/java/net/createarmory/item/renderer/MFourLowerItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BarretLower",
+      "type": "animateditem",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_lower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/barret_lower.json",
+          "src/main/java/net/createarmory/item/model/BarretLowerItemModel.java",
+          "src/main/java/net/createarmory/item/BarretLowerItem.java",
+          "src/main/java/net/createarmory/item/renderer/BarretLowerItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BarretUpper",
+      "type": "animateditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_upper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/renderer/BarretUpperItemRenderer.java",
+          "src/main/java/net/createarmory/item/model/BarretUpperItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/barret_upper.json",
+          "src/main/java/net/createarmory/item/BarretUpperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MinigunBarrel",
+      "type": "animateditem",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minigun_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/MinigunBarrelItemModel.java",
+          "src/main/java/net/createarmory/item/MinigunBarrelItem.java",
+          "src/main/java/net/createarmory/item/renderer/MinigunBarrelItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/minigun_barrel.json"
+        ]
+      }
+    },
+    {
+      "name": "MingunBase",
+      "type": "animateditem",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minigun_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/MingunBaseItemModel.java",
+          "src/main/java/net/createarmory/item/MingunBaseItem.java",
+          "src/main/java/net/createarmory/item/renderer/MingunBaseItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/minigun_base.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourReicpe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_reicpe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_four_reicpe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarretRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/barret_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MiniGunRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_gun_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/mini_gun_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FourSixteen",
+      "type": "animateditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_sixteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/FourSixteenItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/four_sixteen.json",
+          "src/main/java/net/createarmory/item/renderer/FourSixteenItemRenderer.java",
+          "src/main/java/net/createarmory/item/FourSixteenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyFourSixteen",
+      "type": "animateditem",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_four_sixteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/renderer/EmptyFourSixteenItemRenderer.java",
+          "src/main/java/net/createarmory/item/EmptyFourSixteenItem.java",
+          "src/main/java/net/createarmory/item/model/EmptyFourSixteenItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/empty_four_sixteen.json"
+        ]
+      }
+    },
+    {
+      "name": "FourSixteenRightclicked",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_sixteen_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/FourSixteenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyFourSixteenRightclicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_four_sixteen_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyFourSixteenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FourSixteenUpper",
+      "type": "animateditem",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_sixteen_upper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/FourSixteenUpperItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/FourSixteenUpperItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/four_sixteen_upper.json",
+          "src/main/java/net/createarmory/item/FourSixteenUpperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FourSixteenRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_sixteen_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/four_sixteen_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenBrassMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_brass_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MoltenBrassMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSixteen",
+      "type": "animateditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_sixteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/MSixteenItem.java",
+          "src/main/java/net/createarmory/item/renderer/MSixteenItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/m_sixteen.json",
+          "src/main/java/net/createarmory/item/model/MSixteenItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyMSixteen",
+      "type": "animateditem",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_m_sixteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/EmptyMSixteenItemModel.java",
+          "src/main/java/net/createarmory/item/EmptyMSixteenItem.java",
+          "src/main/java/net/createarmory/item/renderer/EmptyMSixteenItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/empty_m_sixteen.json"
+        ]
+      }
+    },
+    {
+      "name": "MSixteenRigthclicked",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_sixteen_rigthclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MSixteenRigthclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyMSixteenRightclicked",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_m_sixteen_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyMSixteenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSixteenUpper",
+      "type": "animateditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_sixteen_upper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/m_sixteen_upper.json",
+          "src/main/java/net/createarmory/item/MSixteenUpperItem.java",
+          "src/main/java/net/createarmory/item/model/MSixteenUpperItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/MSixteenUpperItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PipePistolRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pipe_pistol_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/pipe_pistol_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelPart",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_part",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/barrel_part.json",
+          "src/main/java/net/createarmory/item/BarrelPartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarrelPartRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "barrel_part_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/barrel_part_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MinigunBarrelRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "minigun_barrel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/minigun_barrel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MinigunBaseRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "minigun_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/minigun_base_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MacTenRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mac_ten_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/mac_ten_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MacTenManualLoad",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mac_ten_manual_load",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/mac_ten_manual_load.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourManualLoad",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_manual_load",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_four_manual_load.json"
+        ]
+      }
+    },
+    {
+      "name": "BarretManualLoad",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_manual_load",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/barret_manual_load.json"
+        ]
+      }
+    },
+    {
+      "name": "FourSixteenManualLoad",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_sixteen_manual_load",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/four_sixteen_manual_load.json"
+        ]
+      }
+    },
+    {
+      "name": "MSixteenManualLoad",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_sixteen_manual_load",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_sixteen_manual_load.json"
+        ]
+      }
+    },
+    {
+      "name": "MSixteenRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_sixteen_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_sixteen_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourLowerRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "m_four_lower_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_four_lower_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourUpperRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "m_four_upper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_four_upper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FourSixteenUpperRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "four_sixteen_upper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/four_sixteen_upper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MSixteenUpperRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "m_sixteen_upper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/m_sixteen_upper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarretUpperRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "barret_upper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/barret_upper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarretLowerRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "barret_lower_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/barret_lower_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/rocket_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RPGRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rpg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/rpg_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunDebug",
+      "type": "rangeditem",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/entity/ShotgunDebugEntity.java",
+          "src/main/java/net/createarmory/item/ShotgunDebugItem.java",
+          "src/main/resources/assets/createarmory/models/item/shotgun_debug.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleBarrel",
+      "type": "animateditem",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/double_barrel.json",
+          "src/main/java/net/createarmory/item/DoubleBarrelItem.java",
+          "src/main/java/net/createarmory/item/model/DoubleBarrelItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/DoubleBarrelItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptyDoubleBarrel",
+      "type": "animateditem",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_double_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/EmptyDoubleBarrelItem.java",
+          "src/main/java/net/createarmory/item/model/EmptyDoubleBarrelItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/empty_double_barrel.json",
+          "src/main/java/net/createarmory/item/renderer/EmptyDoubleBarrelItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShell",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/shotgun_shell.json",
+          "src/main/java/net/createarmory/item/ShotgunShellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UnfinishedShotgunShell",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_shotgun_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/UnfinishedShotgunShellItem.java",
+          "src/main/resources/assets/createarmory/models/item/unfinished_shotgun_shell.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyDoubleBarrelRightclicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_double_barrel_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyDoubleBarrelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleBarrelRightclicked",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_barrel_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/DoubleBarrelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleBarrelRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_barrel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/double_barrel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShellRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shotgun_shell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/shotgun_shell_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateArmoryParts",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_armory_parts",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "UpgradedMiniGun",
+      "type": "animateditem",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_mini_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/model/UpgradedMiniGunItemModel.java",
+          "src/main/java/net/createarmory/item/UpgradedMiniGunItem.java",
+          "src/main/java/net/createarmory/item/renderer/UpgradedMiniGunItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/upgraded_mini_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMiniGunRightclicked",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_mini_gun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/UpgradedMiniGunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMinigunBarrel",
+      "type": "animateditem",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_minigun_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/UpgradedMinigunBarrelItem.java",
+          "src/main/java/net/createarmory/item/model/UpgradedMinigunBarrelItemModel.java",
+          "src/main/resources/assets/createarmory/models/item/upgraded_minigun_barrel.json",
+          "src/main/java/net/createarmory/item/renderer/UpgradedMinigunBarrelItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMiniGunRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_mini_gun_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/upgraded_mini_gun_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMinigunBarrelRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upgraded_minigun_barrel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/upgraded_minigun_barrel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MFourItemInHandTick",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_four_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MFourItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyMFourItemInHandTick",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_m_four_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyMFourItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MacTenItemInHandTick",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mac_ten_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MacTenItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyMacTenItemInHandTick",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_mac_ten_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyMacTenItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGItemInHandTick",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpg_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/RPGItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyRPGItemInHandTick",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_rpg_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyRPGItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BarretItemInHandTick",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barret_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/BarretItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyBarretItemInHandTick",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_barret_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyBarretItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleBarrelItemInHandTick",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_barrel_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/DoubleBarrelItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyDoubleBarrelItemInHandTick",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_double_barrel_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/EmptyDoubleBarrelItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniGunItemInHandTick",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_gun_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/MiniGunItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleBarrelManualLoadRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_barrel_manual_load_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/double_barrel_manual_load_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PipePistolLoadRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_pistol_load_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/createarmory/recipes/pipe_pistol_load_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReloadKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/network/ReloadKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ReloadKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/ReloadKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReloadKeyOnKeyReleased",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_key_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/ReloadKeyOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImpactNadeDebugProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_nade_debug_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/ImpactNadeDebugProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImpactNadeDebugWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_nade_debug_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/ImpactNadeDebugWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImpactNadeDebug",
+      "type": "rangeditem",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_nade_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/client/renderer/ImpactNadeDebugRenderer.java",
+          "src/main/java/net/createarmory/item/ImpactNadeDebugItem.java",
+          "src/main/java/net/createarmory/entity/ImpactNadeDebugEntity.java",
+          "src/main/resources/assets/createarmory/models/item/impact_nade_debug.json"
+        ]
+      }
+    },
+    {
+      "name": "ImpactNadeRightclicked",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_nade_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/ImpactNadeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImpactNade",
+      "type": "animateditem",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_nade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/ImpactNadeItem.java",
+          "src/main/resources/assets/createarmory/models/item/impact_nade.json",
+          "src/main/java/net/createarmory/item/model/ImpactNadeItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/ImpactNadeItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SmokeDebug",
+      "type": "rangeditem",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_debug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/createarmory/models/item/smoke_debug.json",
+          "src/main/java/net/createarmory/client/renderer/SmokeDebugRenderer.java",
+          "src/main/java/net/createarmory/entity/SmokeDebugEntity.java",
+          "src/main/java/net/createarmory/item/SmokeDebugItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SmokeDebugProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_debug_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/SmokeDebugProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmokeDebugWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_debug_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/procedures/SmokeDebugWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SmokeNade",
+      "type": "animateditem",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_nade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/createarmory/item/SmokeNadeItem.java",
+          "src/main/java/net/createarmory/item/model/SmokeNadeItemModel.java",
+          "src/main/java/net/createarmory/item/renderer/SmokeNadeItemRenderer.java",
+          "src/main/resources/assets/createarmory/models/item/smoke_nade.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "FireState",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "AmmoState",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "ammo",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "isScoped",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "RPGFireState",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "RPGAmmoState",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Reload",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "mac10.fire",
+      "files": [
+        "mac10fire"
+      ],
+      "category": "player",
+      "subtitle": "Mac10 Shoots"
+    },
+    {
+      "name": "mac10.reload",
+      "files": [
+        "mac10reload"
+      ],
+      "category": "neutral",
+      "subtitle": "Mac10 Reloading"
+    },
+    {
+      "name": "mac10.fire2",
+      "files": [
+        "mac10fire2"
+      ],
+      "category": "player",
+      "subtitle": "Mac10 Shoots"
+    },
+    {
+      "name": "m16.fire",
+      "files": [
+        "m16fire"
+      ],
+      "category": "player",
+      "subtitle": "m16fires"
+    },
+    {
+      "name": "m4.fire",
+      "files": [
+        "m4fire"
+      ],
+      "category": "player",
+      "subtitle": "M4 Shoots"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.createarmory.nine_mm_casing": "9mm Casing",
+      "item.createarmory.fifty_cal_mold": "50cal Mold",
+      "item.createarmory.five_five_six_casing": "556 Casing",
+      "item.createarmory.fifty_cal_mold_complete": "50cal Mold",
+      "item.createarmory.minigun_base": "Minigun Base",
+      "item.createarmory.barret": "Barret",
+      "item.createarmory.nine_debug": "Nine Debug",
+      "item.createarmory.empty_pipe_pistol": "Pipe Pistol",
+      "item.createarmory.smoke_nade": "Smoke Grenade",
+      "subtitles.m16.fire": "m16fires",
+      "subtitles.m4.fire": "M4 Shoots",
+      "itemGroup.tabcreate_armory_parts": "Create Armory Parts",
+      "item.createarmory.barrel_part": "Barrel Part",
+      "item.createarmory.unfinished_shotgun_shell": "Unfinished Shotgun Shell",
+      "item.createarmory.four_sixteen": "AR-416",
+      "item.createarmory.mini_gun": "Minigun",
+      "item.createarmory.fifty_cal_casing": "50 Caliber Casing",
+      "item.createarmory.pipe_pistol": "Pipe Pistol",
+      "item.createarmory.casing_mold": "Casing Mold",
+      "item.createarmory.barret_lower": "Barret Lower",
+      "item.createarmory.fifty_debug": "Nine Debug",
+      "item.createarmory.empty_double_barrel": "Empty Double Barrel Shotgun",
+      "item.createarmory.five_five_six_mold_complete": "556 Mold",
+      "subtitles.mac10.fire": "Mac10 Shoots",
+      "item.createarmory.unfinished_fifty_cal_casing": "Unfinished 50 Caliber Casing",
+      "item.createarmory.shotgun_shell": "Shotgun Shell",
+      "subtitles.mac10.fire2": "Mac10 Shoots",
+      "item.createarmory.nine_mm_mold_complete": "9mm Mold",
+      "item.createarmory.rpg": "RPG",
+      "item.createarmory.upgraded_mini_gun": "8 Barrel Minigun",
+      "item.createarmory.m_sixteen": "M-16",
+      "item.createarmory.empty_m_sixteen": "Empty M-16",
+      "item.createarmory.m_four_upper": "M4 Upper",
+      "item.createarmory.mac_ten": "Mac 10",
+      "fluid.createarmory.molten_brass": "Molten Strengthened Brass",
+      "item.createarmory.nine_mm_mold": "9mm Mold",
+      "item.createarmory.fifty_cal": "50 Caliber Bullet",
+      "item.createarmory.unfinished_five_five_six_casing": "Unfinished 556 Casing",
+      "item.createarmory.double_barrel": "Double Barrel Shotgun",
+      "item.createarmory.impact_nade_debug": "Impact Nade Debug",
+      "item.createarmory.empty_m_four": "Empty M4A4",
+      "item.createarmory.upgraded_minigun_barrel": "Upgraded Minigun Barrel",
+      "item.createarmory.five_five_six_debug": "Nine Debug",
+      "item.createarmory.molten_brass_bucket": "Molten Strengthened Brass Bucket",
+      "item.createarmory.barret_upper": "Barret Upper",
+      "itemGroup.tabcreate_armory": "Create Armory",
+      "item.createarmory.unfinished_nine_mm": "Unfinished 9mm Casing",
+      "item.createarmory.m_four_lower": "M4 Lower",
+      "item.createarmory.four_sixteen_upper": "AR-416 Upper",
+      "item.createarmory.five_five_six_mold": "556 Mold",
+      "item.createarmory.impact_nade": "Impact grenade",
+      "item.createarmory.rocket_debug": "Nine Debug",
+      "item.createarmory.empty_barret": "Barret",
+      "item.createarmory.empty_rpg": "RPG",
+      "item.createarmory.m_four": "M4A4",
+      "item.createarmory.nine_mm": "9mm Bullet",
+      "item.createarmory.shotgun_debug": "Shotgun Debug",
+      "subtitles.mac10.reload": "Mac10 Reloading",
+      "block.createarmory.molten_brass": "Molten Strengthened Brass",
+      "item.createarmory.five_five_six": "556 Bullet",
+      "item.createarmory.rpg_rocket": "Rocket",
+      "item.createarmory.empty_mac_ten": "Empty Mac 10",
+      "key.createarmory.reload_key": "Reload Key",
+      "item.createarmory.minigun_barrel": "Minigun Barrel",
+      "item.createarmory.empty_four_sixteen": "Empty AR-416",
+      "item.createarmory.m_sixteen_upper": "M-16 Upper",
+      "item.createarmory.smoke_debug": "Smoke Debug"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "createarmory",
+    "modName": "CreateArmory",
+    "version": "0.5",
+    "description": "Create Armory adds new weapons based on real life and ficitonal firearams",
+    "author": "dcchill",
+    "websiteURL": "https://discord.gg/Exw2ZKwW",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "allmods"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "dcchill",
+    "modElementsPackage": "net.createarmory",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300108712
+}

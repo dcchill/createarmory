@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:candles"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createarmory:shotgun_shell"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "minecraft:candles"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:unfinished_shotgun_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "createarmory:unfinished_shotgun_shell"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:unfinished_shotgun_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmory:unfinished_shotgun_shell"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmory:shotgun_shell"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmory:unfinished_shotgun_shell"
+  }
+}

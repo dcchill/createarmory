@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "1100 ",
+    "1120 ",
+    "  030"
+  ],
+  "key": {
+    "0": {
+      "item": "create:brass_ingot"
+    },
+    "1": {
+      "item": "createarmory:barrel_part"
+    },
+    "2": {
+      "item": "create:precision_mechanism"
+    },
+    "3": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "createarmory:empty_double_barrel",
+    "count": 1
+  }
+}

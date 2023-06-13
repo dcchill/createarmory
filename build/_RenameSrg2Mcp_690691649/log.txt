@@ -1,0 +1,15 @@
+Java Launcher: D:\MCreator20231\jdk\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\daria\MCreatorWorkspaces\createarmory\extra-mods-1.19.2\alloyed-1.19.2-v1.5.jar, --output, C:\Users\daria\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\extra-mods\alloyed-1.19.2\v1.5_mapped_official_1.19.2\alloyed-1.19.2-v1.5_mapped_official_1.19.2.jar, --mcp, C:\Users\daria\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.19.2\mapping-1.19.2-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\daria\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\daria\MCreatorWorkspaces\createarmory\build\_RenameSrg2Mcp_690691649
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\daria\MCreatorWorkspaces\createarmory\extra-mods-1.19.2\alloyed-1.19.2-v1.5.jar
+Output: C:\Users\daria\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\extra-mods\alloyed-1.19.2\v1.5_mapped_official_1.19.2\alloyed-1.19.2-v1.5_mapped_official_1.19.2.jar
+MCP:    C:\Users\daria\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.19.2\mapping-1.19.2-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete
